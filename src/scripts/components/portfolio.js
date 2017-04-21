@@ -25,7 +25,7 @@ export const ProjectsComponent = (props) => {
         <Card background='#1BBC9B'>
             <div className="card-head">
               <h1>Bike Safe</h1>
-              <img src=".../images/bike-safe.png"/>
+              <img src="../images/bike-safe.png"/>
             </div>
             <i className="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
             <p>A mobile web app that displays an interactive map of crowd sourced data for commuters on bike to choose routes and see possible safety hazards added by other users. Made in React using the Google Maps API.</p>
