@@ -27,7 +27,7 @@ export const SkillsComp = React.createClass({
         </ul>
         <div className="res-link">
           <h2>View full resume here.</h2>
-          <a href="file:///Users/andrewmason/Downloads/Andrew%20Mason%20_%20Resume.pdf" target="_blank"><i className="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+          <a href="https://drive.google.com/open?id=0B1OsERFXiXayUTR1WnNsRFFMUTA" target="_blank"><i className="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
       </div>
     )
