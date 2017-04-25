@@ -13,7 +13,7 @@ export const ProjectsComponent = (props) => {
         transitionAppearTimeout={2000}
         transitionEnter={false}
         transitionLeave={false}>
-        <h2>Projects</h2>
+        <h2>PROJECTS</h2>
       </CSSTransitionGroup>
 
       <CardStack
