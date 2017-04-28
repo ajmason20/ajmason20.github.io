@@ -14,7 +14,7 @@ export const AboutComp = React.createClass({
           <h2>ABOUT</h2>
         </CSSTransitionGroup>
         <div className="headshot"></div>
-        <p>Hi, I'm Andrew.<br/>I geek out over bouldering, great design, and new opporunities to learn. Currently residing in Charleston, SC with my black lab, Bear.TEST</p>
+        <p>Hi, I'm Andrew.<br/>I geek out over bouldering, great design, and new opporunities to learn. Currently residing in Charleston, SC with my black lab, Bear.</p>
       </div>
     )
   }

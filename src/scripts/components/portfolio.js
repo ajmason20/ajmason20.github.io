@@ -25,7 +25,7 @@ export const ProjectsComponent = (props) => {
         <Card background='#1BBC9B'>
             <div className="card-head">
               <h1>Bike Safe</h1>
-              <img src="../images/bike-safe.png"/>
+              <img src="/images/bike-safe.png"/>
             </div>
             <i className="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
             <p>A mobile web app that displays an interactive map of crowd sourced data for commuters on bike to choose routes and see possible safety hazards added by other users. Made in React using the Google Maps API.</p>
@@ -36,7 +36,7 @@ export const ProjectsComponent = (props) => {
         <Card background='#22313F'>
           <div className="card-head">
             <h1>ToDoList</h1>
-            <img src="../images/todolist.png"/>
+            <img src="/images/todolist.png"/>
           </div>
           <i className="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
           <p>A highly interactive application for managings and user's pending and completed tasks.</p>
@@ -47,7 +47,7 @@ export const ProjectsComponent = (props) => {
         <Card background='#1BBC9B'>
           <div className="card-head">
             <h1>BBC Radio</h1>
-            <img src="../images/bbc-radio.png"/>
+            <img src="/images/bbc-radio.png"/>
           </div>
           <i className="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
           <p>A faux BBC Radio app that displays songs and artists pulled from the BBC radio API in master/featured content view, using a Backbone.js model, collections, and router.</p>
@@ -58,7 +58,7 @@ export const ProjectsComponent = (props) => {
         <Card background='#22313F'>
           <div className="card-head">
             <h1>Momofuku</h1>
-            <img src="../images/momofuku.png"/>
+            <img src="/images/momofuku.png"/>
           </div>
           <i className="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
           <p>A responsive clone of the Momofuku Group website using SCSS.</p>
