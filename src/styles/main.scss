@@ -277,3 +277,36 @@ body{
 	text-decoration: none;
 	color: #1BBC9B;
 }
+
+@media only screen and (max-width : 768px) {
+	.about-container {
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.headshot {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.project-container {
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.skills-container ul {
+		display: block;
+		width: 100%;
+		vertical-align: text-bottom;
+		margin-left: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.res-link {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

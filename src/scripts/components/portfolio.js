@@ -1,7 +1,7 @@
-import $ from 'jquery';
 import React from 'react';
 import { CardStack, Card} from 'react-cardstack';
-import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
+import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
+import Waypoint from 'react-waypoint';
 
 export const ProjectsComponent = (props) => {
   return (
