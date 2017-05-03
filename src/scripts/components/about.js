@@ -1,18 +1,21 @@
 import React from 'react';
-import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup'
+import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
+import Waypoint from 'react-waypoint';
 
 export const AboutComp = React.createClass({
   render: function(){
     return (
       <div  id="about" className="about-container">
-        <CSSTransitionGroup
-          transitionName="abouttitle"
-          transitionAppear={true}
-          transitionAppearTimeout={2000}
-          transitionEnter={false}
-          transitionLeave={false}>
-          <h2>ABOUT</h2>
-        </CSSTransitionGroup>
+        {/* <Waypoint> */}
+          <CSSTransitionGroup
+            transitionName="abouttitle"
+            transitionAppear={true}
+            transitionAppearTimeout={2000}
+            transitionEnter={false}
+            transitionLeave={false}>
+            <h2>ABOUT</h2>
+          </CSSTransitionGroup>
+      {/* </Waypoint> */}
         <div className="headshot">
           <img src="images/IMG_1821.png"/>
         </div>
